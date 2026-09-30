@@ -20,7 +20,7 @@ cd frequency_counter
 
 # Build the executable
 gcc -O2 main.c -o frequency_counter
-```
+
 
 📖 Usage
 ./frequency_counter [OPTIONS] [top_n] [min_len] <filename>
@@ -40,3 +40,4 @@ RANK               WORD      COUNT
   4              program        1
   5                kinds        1
 ----------------------------------
+
