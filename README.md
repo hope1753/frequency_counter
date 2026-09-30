@@ -24,7 +24,8 @@ gcc -O2 main.c -o frequency_counter
 
 📖 Usage
 ./frequency_counter [OPTIONS] [top_n] [min_len] <filename>
-## Examples
+
+# Examples
 ./frequency_counter test.txt
 ./frequency_counter -i test.txt
 ./frequency_counter -m 4 test.txt
